@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blackjack</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <main>
+        <div id="container">
+            <div id="logo">
+                <img src="logo.png" alt="blackjak card game logo">
+            </div>
+            <div class="setting">
+                <p id="rules">The player who gets the score closest to 21 wins.</p>
+                <button id="reset">Reset Game!</button>
+            </div>
+            <section id="dealer">
+                <div class="info">
+                    <div class="name">Dealer</div>
+                    <div class="score-container">Current Score: <span class="points-0">0</span></div>
+                </div>
+                <div class="deck-0">
+                </div>
+            </section>
+            
+            <section id="player">
+                <div class="info">
+                    <div class="name">Player 1</div>
+                    <div class="score-container">Current Score: <span class="points-1">0</span></div>
+                    <div class="score-notification-1"></div>
+                    <div class="result-message"> </div>
+                </div>
+                <div class="deck-1">
+        </div>
+                <div class="action">
+                    <button id="hit-1">Hit!</button>
+                    <button id="stand-1">Stand!</button>
+                </div>
+            </section>
+        </div>
+    </main>
+</body>
+
+</html>
+<link rel="stylesheet" href="css/style.css">
+<script src="js/scripts.js"></script>

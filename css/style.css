@@ -1,0 +1,99 @@
+body{
+    background-color: #ade0ff;
+}
+main {
+    background-color: #fff;
+    width: 1280px;
+    max-width: 100%;
+    margin: 0 auto;
+    border: 2px solid grey;
+}
+#logo {
+    display: flex;
+    justify-content: center;
+}
+#logo img {
+    width: 50%;
+}
+#container {
+    margin: 0 auto;
+    max-width: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 0px;
+}
+#dealer,
+#player {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.setting {
+/*    width: 100%;*/
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.score-container,
+.name {
+    font-weight: bold;
+    font-size: 35px;
+}
+.score-notification-1, .result-message{
+    font-size: 20px;
+}
+.points span {
+    text-decoration: underline;
+}
+.deck-1 img, .deck-0 img {
+    width: 35%;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 15px 0px
+}
+button#reset {
+    font-size: 15px;
+    padding: 15px 20px;
+}
+button {
+    padding: 15px 25px;
+    font-size: 18px;
+    border-radius: 10px;
+    width: 150px;
+    font-weight: bold;
+    text-transform: uppercase;
+    height: 55px;
+    background-color: lightgray;
+    box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.3);
+}
+
+button:focus {
+    outline: none;
+}
+
+.deck-1, .deck-0 {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+
+
+.action {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+#rules {
+    width: 40%;
+    text-align: center;
+    line-height: 22px;
+}
